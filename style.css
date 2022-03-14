@@ -13,6 +13,22 @@ ul{
     padding-left: 0;
 }
 
+p{
+    color: rgb(129, 129, 129);;
+}
+
+h5{
+    color: rgb(73, 73, 73);
+}
+
+h6{
+    color: rgb(73, 73, 73);
+}
+
+a{
+    text-decoration: none;
+}
+
 /* <!-- Nav Bar Section --> */
 .navbar{
     background-color: rgb(59, 60, 68);
@@ -75,11 +91,185 @@ ul{
     padding-left: 10px;
 }
 .intro-button-2 button{
-    background-color: #EBF2FF;
+    background: linear-gradient(to right,#0087FB, #58b0fd);
     padding-left: 30px;
 }
 .button-follow{
-    background: linear-gradient(to-right #0087FB, #43a7ff);
+    color: #fff;
     font-weight: 600;
 }
+.company-intro{
+    box-shadow: 0 4px 8px 0 rgba(182, 182, 182, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
+}
 /* <!-- Company Header Section --> */
+
+/* <!-- Company Overview --> */
+.overview-logo img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    background: #e4e4e4;
+    margin: 15px auto;
+}
+.overview-title h5{
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+}
+.overview-title p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(129, 129, 129);
+    font-weight: 500;
+    line-height: 1.3rem;
+}
+.counter-connection{
+    margin-top: -10px;
+}
+.counter-connection-title{
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+}
+.counter-connection-number{
+    font-weight: 700;
+    color: rgb(24, 227, 241);
+}
+
+/* <!-- Post Job Start --> */
+.hire-image img{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hire-title{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: rgb(73, 73, 73);
+}
+.hire-text{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(129, 129, 129);
+}
+.hire-button .btn{
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* <!-- Top Tab Menu --> */
+.nav-tab{
+    list-style: none;
+}
+.top-tabs{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.top-tabs .nav-item a{
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+}
+.top-tabs .nav-item .nav-link.active{
+    color: #58b0fd;
+    border-bottom: 2px solid #58b0fd;
+}
+.top-tabs .nav-item .nav-link.active::after{
+    margin-bottom: 10px;
+}
+.about-header-text{
+    padding: 20px;
+}
+
+.overview-header-text{
+    padding: 20px 20px 0 20px;
+}
+.map-header-text{
+    padding: 20px 20px 0 20px;
+}
+.map-details{
+    margin-top: -12px;
+    border-left: 1px  solid rgb(238, 238, 238);
+    border-right: 1px  solid rgb(238, 238, 238);
+    border-bottom: 1px  solid rgb(238, 238, 238);
+    border-radius: 5px;
+}
+.map-area-1 iframe{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.map-area-2 iframe{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* <!-- About Content --> */
+.similar-page-text{
+    padding: 20px 20px 0 20px;
+}
+.similar-category-amazon img{
+    height: 50px;
+    width: 50px;
+    margin-right: -25px;
+}
+.similar-category-amazon .category-name small {
+    line-height: 2px;
+}
+.follow-button{
+    background-color: #EBF2FF;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-follow-similar{
+    color: #2595FF;
+    font-weight: 600;
+}
+.follow-button i{
+    display: flex;
+    position: absolute;
+    color: #688DFF;
+    padding-top: 12px;
+}
+
+.review-users-text{
+    padding: 20px 20px 0 20px;
+}
+.sidebar-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.category-name{
+    padding-left: 15px;
+}
+
+.premium-image img{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.premium-title{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #D6AE2B;
+}
+.premium-text{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(129, 129, 129);
+}
+.premium-button .btn{
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #D6AE2B;
+}
