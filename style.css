@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    font-family: "PT Sans";
+}
+ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+/* <!-- Nav Bar Section --> */
+.navbar{
+    background-color: rgb(59, 60, 68);
+}
+.search-input i{
+    top: 40%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 255px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.unread-notif{
+    font-size: 0.6rem;
+}
+/* <!-- Nav Bar Section --> */
+
+/* <!-- Header Slider Section --> */
+.header-image img{
+    background-repeat: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+/* <!-- Header Slider Section --> */
+
+/* <!-- Company Header Section --> */
+.company-intro{
+    padding-top: 1rem;
+}
+.intro-1 h4{
+    font-weight: 600;
+}
+.intro-sutitlte p{
+    font-weight: 600;
+    color: rgb(148, 148, 148);
+}
+.intro-button-1 i{
+    display: flex;
+    position: absolute;
+    color: #688DFF;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.intro-button-1 button{
+    background-color: #EBF2FF;
+    padding-left: 30px;
+}
+.button-website{
+    color: #2595FF;
+    font-weight: 600;
+}
+
+.intro-button-2 i{
+    display: flex;
+    position: absolute;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.intro-button-2 button{
+    background-color: #EBF2FF;
+    padding-left: 30px;
+}
+.button-follow{
+    background: linear-gradient(to-right #0087FB, #43a7ff);
+    font-weight: 600;
+}
+/* <!-- Company Header Section --> */
