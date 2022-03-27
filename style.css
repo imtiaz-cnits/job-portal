@@ -14,7 +14,13 @@ ul{
 }
 
 p{
-    color: rgb(129, 129, 129);;
+    color: rgb(129, 129, 129);
+    margin-bottom: 0;
+}
+
+h4{
+    color: rgb(61, 61, 61);
+    margin-bottom: 0;
 }
 
 h5{
@@ -29,6 +35,7 @@ h6{
 
 a{
     text-decoration: none;
+    color: rgb(165, 165, 165);
 }
 
 small{
@@ -122,6 +129,15 @@ small{
     background: #e4e4e4;
     margin: 15px auto;
 }
+.divider-two{
+    width: 100%;
+    height: 1px;
+    background: #e4e4e4;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
 .overview-title h5{
     font-weight: 600;
     color: rgb(73, 73, 73);
@@ -177,7 +193,6 @@ small{
 .top-tabs{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
 }
 .top-tabs .nav-item a{
     font-weight: 600;
@@ -186,6 +201,7 @@ small{
 .top-tabs .nav-item .nav-link.active{
     color: #58b0fd;
     border-bottom: 2px solid #58b0fd;
+    padding-bottom: 15px;
 }
 .top-tabs .nav-item .nav-link.active::after{
     margin-bottom: 10px;
@@ -367,13 +383,85 @@ small{
 .suggestion-header-img .user-1{
     margin-left: -20px;
 }
-.button-follow{
+.button-follow-2{
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
 
 }
-.button-follow .btn{
+.button-follow-2 .btn{
     padding-left: 30px;
     padding-right: 30px;
 }
+
+
+/* =============COMPANY PROFILE======================== */
+.job-search-bar{
+    position: block;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.job-search-bar button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: -38px;
+    margin-right: 0px;
+    background: none;
+    border: none;
+    border-left: 1px solid #b6b6b6;
+    font-size: 17px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* =============COMPANY PROFILE======================== */
+
+.friend-list-img div{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin-left: 28px;
+    margin-top: -12px;
+    border: 2px solid #fff;
+}
+
+/* -----------Tab CSS---------- */
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-item{
+    position: relative;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #b6b6b6;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 0;
+    position: relative;
+}
+
+.nav-tabs .nav-item .nav-link.active::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: calc(100% - 2px);
+    background-color: #0087FB;
+    left: 0;
+    transition: 0.3s all linear;
+}
+/* -----------Tab CSS---------- */
+
+
+
+/* ======PERSONAL PROFILE======== */
